@@ -1,0 +1,12 @@
+CRITICAL - 2020-09-03 07:04:25 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\codeigniter4\primeiro\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter4\primeiro\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\codeigniter4\primeiro\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\codeigniter4\primeiro\app\Models\NewsModel.php(17): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php(14): App\Models\NewsModel->getNews()
+#5 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(918): App\Controllers\News->index()
+#6 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#7 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\primeiro\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codeigniter4\primeiro\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}

@@ -1,0 +1,166 @@
+CRITICAL - 2020-08-31 10:34:22 --> syntax error, unexpected '==' (T_IS_EQUAL), expecting ')'
+#0 C:\xampp\htdocs\codeigniter4\primeiro\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('pages/sobre')
+#1 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('pages/sobre')
+#2 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter4\primeiro\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter4\primeiro\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-31 14:51:12 --> Invalid file: news/overview.php
+#0 C:\xampp\htdocs\codeigniter4\primeiro\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/overview.p...')
+#1 C:\xampp\htdocs\codeigniter4\primeiro\system\Common.php(1119): CodeIgniter\View\View->render('news/overview', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php(18): view('news/overview', Array)
+#3 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(918): App\Controllers\News->index()
+#4 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\primeiro\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter4\primeiro\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-31 16:29:38 --> min_lenght is not a valid rule.
+#0 C:\xampp\htdocs\codeigniter4\primeiro\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lenght')
+#1 C:\xampp\htdocs\codeigniter4\primeiro\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('title', 'title', 'isaque', Array, Array)
+#2 C:\xampp\htdocs\codeigniter4\primeiro\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php(53): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(918): App\Controllers\News->store()
+#5 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#6 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\codeigniter4\primeiro\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\codeigniter4\primeiro\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-31 16:30:22 --> Invalid file: news/error.php
+#0 C:\xampp\htdocs\codeigniter4\primeiro\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/error.php')
+#1 C:\xampp\htdocs\codeigniter4\primeiro\system\Common.php(1119): CodeIgniter\View\View->render('news/error', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php(67): view('news/error')
+#3 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(918): App\Controllers\News->store()
+#4 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\primeiro\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter4\primeiro\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-31 16:31:47 --> Invalid file: news/error.php
+#0 C:\xampp\htdocs\codeigniter4\primeiro\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/error.php')
+#1 C:\xampp\htdocs\codeigniter4\primeiro\system\Common.php(1119): CodeIgniter\View\View->render('news/error', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php(67): view('news/error')
+#3 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(918): App\Controllers\News->store()
+#4 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\primeiro\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeigniter4\primeiro\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-31 16:33:30 --> min_lenght is not a valid rule.
+#0 C:\xampp\htdocs\codeigniter4\primeiro\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lenght')
+#1 C:\xampp\htdocs\codeigniter4\primeiro\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('title', 'title', 'isaque', Array, Array)
+#2 C:\xampp\htdocs\codeigniter4\primeiro\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php(53): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(918): App\Controllers\News->store()
+#5 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#6 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\codeigniter4\primeiro\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\codeigniter4\primeiro\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-31 16:34:04 --> Allowed fields must be specified for model: App\Models\NewsModel
+#0 C:\xampp\htdocs\codeigniter4\primeiro\system\Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\News...')
+#1 C:\xampp\htdocs\codeigniter4\primeiro\system\Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\codeigniter4\primeiro\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php(58): CodeIgniter\Model->save(Array)
+#4 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(918): App\Controllers\News->store()
+#5 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#6 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\codeigniter4\primeiro\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\codeigniter4\primeiro\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-31 16:34:49 --> Allowed fields must be specified for model: App\Models\NewsModel
+#0 C:\xampp\htdocs\codeigniter4\primeiro\system\Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\News...')
+#1 C:\xampp\htdocs\codeigniter4\primeiro\system\Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\codeigniter4\primeiro\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php(58): CodeIgniter\Model->save(Array)
+#4 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(918): App\Controllers\News->store()
+#5 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#6 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\codeigniter4\primeiro\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\codeigniter4\primeiro\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-31 16:36:47 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php on line 58
+#0 C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php(58): url_title(NULL)
+#1 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(918): App\Controllers\News->store()
+#2 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter4\primeiro\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter4\primeiro\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-31 16:38:25 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php on line 58
+#0 C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php(58): url_title(NULL)
+#1 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(918): App\Controllers\News->store()
+#2 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter4\primeiro\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter4\primeiro\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-31 16:39:18 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php on line 58
+#0 C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php(58): url_title(NULL)
+#1 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(918): App\Controllers\News->store()
+#2 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter4\primeiro\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter4\primeiro\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-31 16:41:14 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php on line 58
+#0 C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php(58): url_title(NULL)
+#1 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(918): App\Controllers\News->store()
+#2 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter4\primeiro\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter4\primeiro\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-31 16:44:11 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php on line 58
+#0 C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php(58): url_title(NULL)
+#1 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(918): App\Controllers\News->store()
+#2 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter4\primeiro\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter4\primeiro\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-31 16:45:02 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php on line 58
+#0 C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php(58): url_title(NULL)
+#1 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(918): App\Controllers\News->store()
+#2 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter4\primeiro\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter4\primeiro\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-31 16:45:53 --> Column 'slug' cannot be null
+#0 C:\xampp\htdocs\codeigniter4\primeiro\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ne...')
+#1 C:\xampp\htdocs\codeigniter4\primeiro\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ne...')
+#2 C:\xampp\htdocs\codeigniter4\primeiro\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ne...')
+#3 C:\xampp\htdocs\codeigniter4\primeiro\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ne...', Array, false)
+#4 C:\xampp\htdocs\codeigniter4\primeiro\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codeigniter4\primeiro\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php(59): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(918): App\Controllers\News->store()
+#8 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#9 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter4\primeiro\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\codeigniter4\primeiro\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-08-31 16:46:06 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php on line 58
+#0 C:\xampp\htdocs\codeigniter4\primeiro\app\Controllers\News.php(58): url_title(NULL)
+#1 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(918): App\Controllers\News->store()
+#2 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter4\primeiro\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter4\primeiro\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-31 16:47:26 --> Call to undefined function App\Controllers\now()
+#0 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(918): App\Controllers\News->store()
+#1 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\primeiro\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\codeigniter4\primeiro\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-31 16:47:37 --> Call to undefined function App\Controllers\Now()
+#0 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(918): App\Controllers\News->store()
+#1 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\codeigniter4\primeiro\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\primeiro\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\codeigniter4\primeiro\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
